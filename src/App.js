@@ -10,7 +10,7 @@ function App() {
   
  
   return (
-    <Router basename="/simple-note-taking">
+    <Router >
     <div className="App">
       <Header />
       <Routes />
