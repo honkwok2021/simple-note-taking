@@ -10,13 +10,13 @@ function App() {
   
  
   return (
-    <HashRouter basename="/simple-note-taking">
+    <Router basename="/simple-note-taking">
     <div className="App">
       <Header />
       <Routes />
       
     </div>
-    </HashRouter>
+    </Router>
     
   );
 }
