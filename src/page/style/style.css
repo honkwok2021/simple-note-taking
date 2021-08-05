@@ -1,0 +1,81 @@
+/*Hon Pan Kwok 808481863*/
+*{
+    justify-content: center;
+}
+.header {
+    min-height: 20vh;
+    background-color:rgba(112, 240, 229, 0.5);
+    color: white;
+    border:1px solid black;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    gap:15px;
+    font-size: calc(5px + 2vmin);
+    
+}
+
+.mainBody{
+    background-color: peachpuff;
+    min-height: 80vh;
+    
+}
+
+a{
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(35, 145, 77, 0.664);
+}
+
+.createSection{
+    background-color: peachpuff;
+    min-height: 80vh;
+}
+
+input{
+    width: 20%;
+    margin-top: 8%;
+    border:orange 2px solid;
+    border-radius: 18px;
+    
+
+}
+
+.textarea{
+    min-height: 20vh;
+    width: 20%;
+    border:orange 2px solid;
+    border-radius: 18px;
+}
+
+form{
+    background-color: peachpuff;
+    min-height: 80vh;
+}
+.home{
+   
+    border: solid 1px olive;
+    background-color: rgba(245, 116, 116, 0.384);
+    block-size: 150px;
+    
+}
+
+ul{
+    list-style-type: none;
+    align-items: center;
+    padding:3px;
+}
+
+.AddNote{
+    width: 200px;
+    height: 150px;
+    border:plum 2px solid;
+    border-radius: 20px;
+}
+button{
+    padding:5px;
+    border: plum 1px solid;
+    
+    
+}
